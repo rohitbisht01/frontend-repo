@@ -1,0 +1,107 @@
+[
+  {
+    "question": "What is React?",
+    "options": [
+      {
+        "text": "A JavaScript library for building user interfaces",
+        "isCorrect": true
+      },
+      {
+        "text": "A programming language",
+        "isCorrect": false
+      },
+      {
+        "text": "An operating system",
+        "isCorrect": false
+      },
+      {
+        "text": "A database management system",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which company developed React?",
+    "options": [
+      {
+        "text": "Google",
+        "isCorrect": false
+      },
+      {
+        "text": "Facebook",
+        "isCorrect": true
+      },
+      {
+        "text": "Microsoft",
+        "isCorrect": false
+      },
+      {
+        "text": "Apple",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is JSX in React?",
+    "options": [
+      {
+        "text": "JavaScript XML",
+        "isCorrect": true
+      },
+      {
+        "text": "JavaScript Extension",
+        "isCorrect": false
+      },
+      {
+        "text": "JavaScript Syntax eXtension",
+        "isCorrect": false
+      },
+      {
+        "text": "JavaScript eXtensible",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What does React use to build reusable UI components?",
+    "options": [
+      {
+        "text": "Classes",
+        "isCorrect": false
+      },
+      {
+        "text": "Functions",
+        "isCorrect": true
+      },
+      {
+        "text": "Variables",
+        "isCorrect": false
+      },
+      {
+        "text": "Arrays",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of props in React?",
+    "options": [
+      {
+        "text": "To initialize state",
+        "isCorrect": false
+      },
+      {
+        "text": "To pass data from parent to child components",
+        "isCorrect": true
+      },
+      {
+        "text": "To define component methods",
+        "isCorrect": false
+      },
+      {
+        "text": "To handle user events",
+        "isCorrect": false
+      }
+    ]
+  }
+]

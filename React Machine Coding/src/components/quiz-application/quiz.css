@@ -1,0 +1,38 @@
+.option {
+  list-style: none;
+}
+
+.question {
+  margin: 20px auto;
+  width: 60%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.options {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.result {
+  margin: 20px auto;
+  width: 60%;
+}
+
+.reset {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #ddd;
+}
