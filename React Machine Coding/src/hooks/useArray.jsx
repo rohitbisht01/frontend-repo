@@ -4,7 +4,7 @@ export const useArray = (defaultArr) => {
   const [array, setArray] = useState(defaultArr);
 
   const push = (element) => {
-    setArray((arr) => [...arr, element]);
+    setArray([...array, element]);
   };
 
   const remove = (index) => {
@@ -22,8 +22,7 @@ export const useArray = (defaultArr) => {
     setArray((arr) => [
       ...arr.slice(0, index),
       newElement,
-      ...arr.slice(index + 1),
-      arr.length,
+      ...arr.slice(index + 1, arr.length),
     ]);
   };
 
@@ -31,5 +30,5 @@ export const useArray = (defaultArr) => {
     setArray([]);
   };
 
-  return { array, set: setArray, push, remove, filter, update, clear };
+  return { clear, array, push, update, filter, remove };
 };

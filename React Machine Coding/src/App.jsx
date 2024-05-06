@@ -4,6 +4,7 @@ import LocalStorage from "./hook-components/LocalStorage";
 import CopyToClipboard from "./hook-components/CopyToClipboard";
 import DebounceFiltering from "./hook-components/DebounceFiltering";
 import PreviousHookComponent from "./hook-components/PreviousHookComponent";
+import ModalComponent from "./hook-components/ModalComponent";
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       {/* <LocalStorage /> */}
       {/* <PreviousHookComponent /> */}
       {/* <DebounceFiltering /> */}
-      <CopyToClipboard />
+      {/* <CopyToClipboard /> */}
+      {/* <ModalComponent /> */}
     </div>
   );
 };
