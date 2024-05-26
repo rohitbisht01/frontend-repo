@@ -241,3 +241,9 @@ passed as an argument to the call, apply, & bind method.
 4. Promise.any() => Similar to Promise.race() but waits for the first promise to get fulfilled or rejects if all the promises are rejected
 
 - Promise Polyfills for Promise.all, Promise.race, Promise.allSettled, Promise.any
+
+### Execute Async functions in series
+
+### Execute Async functions in parallel
+
+### Implement mapSeries async function
